@@ -252,7 +252,7 @@ table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.SPR");
 table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.1);
 
 table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.SPRSD");
-table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.01;
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.01);
 
 table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.Vector45");
 table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.01);
