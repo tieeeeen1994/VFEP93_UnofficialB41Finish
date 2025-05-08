@@ -1,5 +1,30 @@
 module Base
 {
+    recipe Make 5.7mm Ammo [VFEP93]
+    {
+        ammomaker.ammomaker_GunPowderGrains=12,
+        ammomaker.ammomaker_PartsBottleneckS=1,
+        keep Hammer/BallPeenHammer,
+        Result:Base.57Bullets=1,
+        Time:50.0,
+        Category:AmmoMakerAmmo,
+        OnGiveXP:Recipe.OnGiveXP.Reloading3,
+        NeedToBeLearn:false,
+        IsHidden:true,
+    }
+
+    recipe Make 4.6mm Ammo [VFEP93]
+    {
+        ammomaker.ammomaker_GunPowderGrains=16,
+        ammomaker.ammomaker_PartsBottleneckS=1,
+        keep Hammer/BallPeenHammer,
+        Result:Base.46Bullets=1,
+        Time:50.0,
+        Category:AmmoMakerAmmo,
+        OnGiveXP:Recipe.OnGiveXP.Reloading3,
+        NeedToBeLearn:false,
+        IsHidden:true,
+    }
 
 
     recipe Open Box of 5.7 Ammo
