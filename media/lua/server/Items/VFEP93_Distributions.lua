@@ -56,8 +56,8 @@ table.insert(ProceduralDistributions.list.GunStoreShelf.items, 2.5);
 table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.12clip5");
 table.insert(ProceduralDistributions.list.GunStoreShelf.items, 2);
 
-table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.PPSHDrum");
-table.insert(ProceduralDistributions.list.GunStoreShelf.items, 2);
+-- table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.PPSHDrum");
+-- table.insert(ProceduralDistributions.list.GunStoreShelf.items, 2);
 
 table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.12clip32");
 table.insert(ProceduralDistributions.list.GunStoreShelf.items, 1);
