@@ -85,4 +85,40 @@ module Base
         MetalValue = 50,
         WorldStaticModel = 762Box,
     }
+
+    item 57Pack
+    {
+        Weight	=	0.64,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Pack of 5.7 Boxes,
+        DisplayCategory = Ammo,
+        Icon	=	22AmmoPack,
+        MetalValue = 200,
+        WorldStaticModel = 22Pack,
+    }
+
+    item 57Case
+    {
+        Weight	=	2.5,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Case of 5.7 Boxes,
+        DisplayCategory = Ammo,
+        Icon	=	22AmmoCase,
+        MetalValue = 800,
+        WorldStaticModel = 22Case,
+    }
+
+    item 57Crate
+    {
+        Weight	=	9.8,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Crate of 5.7 Boxes,
+        DisplayCategory = Ammo,
+        Icon	=	22AmmoCrate,
+        MetalValue = 3200,
+        WorldStaticModel = 22Crate,
+    }
 }
