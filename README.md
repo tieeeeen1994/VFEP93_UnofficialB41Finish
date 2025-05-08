@@ -6,4 +6,7 @@ Treat this as a closure to the mod for B41. I know a friend of his will attempt 
 
 ## Features
 
+- Add repair possibilities for all guns through the same type and repair item kits from VFE itself.
+- Fix a few bugs from VFE Post '93 that revolves around wrong repair types.
+- Modified weight of ammo intrduced by VFE Post '93.
 - Ammunition introduced by VFE Post '93 will now have packs, cases and crates.

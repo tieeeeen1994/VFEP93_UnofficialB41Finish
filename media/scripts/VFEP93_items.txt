@@ -22,7 +22,43 @@ module Base
         DisplayCategory = Ammo,
         Icon	=	44AmmoBox,
         MetalValue = 40,
-        WorldStaticModel = 762Box,
+        WorldStaticModel = BoxOf44Magnum,
+    }
+
+    item 46Pack
+    {
+        Weight	=	0.7,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Pack of 4.6 Boxes,
+        DisplayCategory = Ammo,
+        Icon	=	44AmmoPack,
+        MetalValue = 160,
+        WorldStaticModel = 44Pack,
+    }
+
+    item 46Case
+    {
+        Weight	=	2.6,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Case of 4.6 Boxes,
+        DisplayCategory = Ammo,
+        Icon	=	44AmmoCase,
+        MetalValue = 640,
+        WorldStaticModel = 44Case,
+    }
+
+    item 46Crate
+    {
+        Weight	=	10.2,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Crate of 4.6 Boxes,
+        DisplayCategory = Ammo,
+        Icon	=	44AmmoCrate,
+        MetalValue = 2560,
+        WorldStaticModel = 44Crate,
     }
 
     item 57Bullets
