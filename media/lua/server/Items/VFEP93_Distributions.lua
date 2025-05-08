@@ -62,6 +62,30 @@ table.insert(ProceduralDistributions.list.GunStoreDisplayCase.items, 0.2);
 table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.12clip32");
 table.insert(ProceduralDistributions.list.GunStoreShelf.items, 1);
 
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.22ClipRifle25");
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, 1);
+
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.scar17clip");
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, 1);
+
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.45Clip30v");
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, 1);
+
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.9mmClip33v");
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, 1);
+
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.57Clip50");
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, 1);
+
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.57Clip20");
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, 1);
+
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.46Clip40");
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, 1);
+
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.22Clip33");
+table.insert(ProceduralDistributions.list.GunStoreShelf.items, 1);
+
 -- table.insert(ProceduralDistributions.list.GunStoreShelf.items, "Base.545Clip");
 -- table.insert(ProceduralDistributions.list.GunStoreShelf.items, 2.5);
 
@@ -213,6 +237,81 @@ table.insert(ProceduralDistributions.list.FirearmWeapons.items, 10);
 table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.46Box");
 table.insert(ProceduralDistributions.list.FirearmWeapons.items, 10);
 
+
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.scar17");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.01);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.M4A1");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.05);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.Block2");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.05);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.SPR");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.1);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.SPRSD");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.01;
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.Vector45");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.01);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.Vector9");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.1);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.P90");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.01);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.MP7");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.01);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.FN57");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.1);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.CP33");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.01);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.1522");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.01);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.n418sd");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.01);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.n418");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.1);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.AA12");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.01);
+
+
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.22ClipRifle25");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.3);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.scar17clip");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.3);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.45Clip30v");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.3);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.9mmClip33v");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.3);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.57Clip50");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.3);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.57Clip20");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.3);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.46Clip40");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.3);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.22Clip33");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.3);
+
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Base.12Clip32");
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 0.3);
 
 
 
