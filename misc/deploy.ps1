@@ -5,6 +5,16 @@ $destinationPath = "..\..\Workshop\VFEP93_UnofficialB41Finish\Contents\mods\VFEP
 # Ensure the destination directory exists
 New-Item -ItemType Directory -Force -Path $destinationPath > $null 2>&1
 
+# Define the media folder path in the destination
+$destinationMediaPath = Join-Path -Path $destinationPath -ChildPath "media"
+
+# Delete all files and subfolders inside the media folder of the workshop
+if (Test-Path $destinationMediaPath) {
+    Remove-Item -Path $destinationMediaPath\* -Recurse -Force > $null 2>&1
+} else {
+    Write-Host "Media folder in the workshop does not exist. Skipping deletion."
+}
+
 # Copy the media folder
 Copy-Item -Path "$sourcePath\media" -Destination $destinationPath -Recurse -Force > $null 2>&1
 
@@ -19,4 +29,4 @@ foreach ($file in $filesToCopy) {
     }
 }
 
-Write-Host "Copy to workshop completed successfully!"
+Write-Host "Deployment completed successfully!"
