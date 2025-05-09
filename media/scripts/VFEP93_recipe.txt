@@ -1,6 +1,6 @@
 module Base
 {
-    recipe Make 5.7mm Ammo [VFEP93]
+    recipe Make 5.7
     {
         ammomaker.ammomaker_GunPowderGrains=12,
         ammomaker.ammomaker_PartsBottleneckS=1,
@@ -13,7 +13,7 @@ module Base
         IsHidden:true,
     }
 
-    recipe Make 4.6mm Ammo [VFEP93]
+    recipe Make 4.6
     {
         ammomaker.ammomaker_GunPowderGrains=16,
         ammomaker.ammomaker_PartsBottleneckS=1,
