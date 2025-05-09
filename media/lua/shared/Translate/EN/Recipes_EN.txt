@@ -1,6 +1,6 @@
 Recipes_EN = {
-    Recipe_Make_5.7mm_Ammo_[VFEP93] = "Make 5.7mm Ammo [VFEP93]",
-    Recipe_Make_4.6mm_Ammo_[VFEP93] = "Make 4.6mm Ammo [VFEP93]",
+    Recipe_Make_5.7x28mm_[VFE] = "Make 5.7x28mm [VFE]",
+    Recipe_Make_4.6x30mm_[VFE] = "Make 4.6x30mm [VFE]",
     Recipe_Open_Box_of_5.7mm_Ammo = "Open Box of 5.7mm Ammo",
     Recipe_Place_5.7mm_Ammo_in_Box = "Place 5.7mm Ammo in Box",
     Recipe_Pack_5.7mm_Boxes = "Pack 5.7mm Boxes",
