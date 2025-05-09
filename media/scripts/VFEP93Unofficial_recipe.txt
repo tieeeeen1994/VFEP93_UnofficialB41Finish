@@ -1,0 +1,161 @@
+module Base
+{
+    recipe Make 5.7
+    {
+        ammomaker.ammomaker_GunPowderGrains=12,
+        ammomaker.ammomaker_PartsBottleneckS=1,
+        keep Hammer/BallPeenHammer,
+        Result:Base.57Bullets=1,
+        Time:50.0,
+        Category:AmmoMakerAmmo,
+        OnGiveXP:Recipe.OnGiveXP.Reloading3,
+        NeedToBeLearn:false,
+        IsHidden:true,
+    }
+
+    recipe Make 4.6
+    {
+        ammomaker.ammomaker_GunPowderGrains=16,
+        ammomaker.ammomaker_PartsBottleneckS=1,
+        keep Hammer/BallPeenHammer,
+        Result:Base.46Bullets=1,
+        Time:50.0,
+        Category:AmmoMakerAmmo,
+        OnGiveXP:Recipe.OnGiveXP.Reloading3,
+        NeedToBeLearn:false,
+        IsHidden:true,
+    }
+
+
+    recipe Open Box of 5.7 Ammo
+    {
+        57Box,
+
+        Result:57Bullets=10,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place 5.7 Ammo in Box
+    {
+        57Bullets=50,
+
+        Result:57Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Pack 5.7 Boxes
+    {
+        57Box=4,
+
+        Result:57Pack,
+        Time:50.0,
+    }
+
+    recipe Open Pack of 5.7 Ammo
+    {
+        57Pack,
+
+        Result:57Box=4,
+        Time:50.0,
+    }
+
+    recipe Case 5.7 Packs
+    {
+        57Pack=4,
+
+        Result:57Case,
+        Time:50.0,
+    }
+
+    recipe Open Case of 5.7 Ammo
+    {
+        57Case,
+
+        Result:57Pack=4,
+        Time:50.0,
+    }
+
+    recipe Crate 5.7 Cases
+    {
+        57Case=4,
+
+        Result:57Crate,
+        Time:50.0,
+    }
+
+    recipe Open Crate of 5.7 Boxes
+    {
+        57Crate,
+
+        Result:57Case=4,
+        Time:50.0,
+    }
+
+    recipe Open Box of 4.6 Ammo
+    {
+        46Box,
+
+        Result:46Bullets=8,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place 4.6 Ammo in Box
+    {
+        46Bullets=40,
+
+        Result:46Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Pack 4.6 Boxes
+    {
+        46Box=4,
+
+        Result:46Pack,
+        Time:50.0,
+    }
+
+    recipe Open Pack of 4.6 Ammo
+    {
+        46Pack,
+
+        Result:46Box=4,
+        Time:50.0,
+    }
+
+    recipe Case 4.6 Packs
+    {
+        46Pack=4,
+
+        Result:46Case,
+        Time:50.0,
+    }
+
+    recipe Open Case of 4.6 Ammo
+    {
+        46Case,
+
+        Result:46Pack=4,
+        Time:50.0,
+    }
+
+    recipe Crate 4.6 Cases
+    {
+        46Case=4,
+
+        Result:46Crate,
+        Time:50.0,
+    }
+
+    recipe Open Crate of 4.6 Boxes
+    {
+        46Crate,
+
+        Result:46Case=4,
+        Time:50.0,
+    }
+}

@@ -1,0 +1,154 @@
+module Base
+{
+
+
+
+     fixing Fix M4A1
+     {
+         Require : M4A1,
+
+         Fixer : M4A1; Aiming=7,
+         Fixer : CleaningKit=1; Aiming=4,
+         Fixer : FireKlean; Aiming=2,
+     }
+
+
+     fixing Fix scar17
+     {
+         Require : scar17
+
+         Fixer : scar17; Aiming=7,
+         Fixer : CleaningKit=1; Aiming=4,
+         Fixer : FireKlean; Aiming=2
+     }
+
+
+     fixing Fix Block2
+     {
+         Require : Block2
+
+         Fixer : Block2; Aiming=7,
+         Fixer : CleaningKit=1; Aiming=4,
+         Fixer : FireKlean; Aiming=2
+     }
+
+
+     fixing Fix SPR
+     {
+         Require : SPR,
+
+         Fixer : SPR; Aiming=7,
+         Fixer : CleaningKit=1; Aiming=4,
+         Fixer : FireKlean; Aiming=2,
+     }
+
+
+     fixing Fix SPRSD
+     {
+         Require : SPR,
+
+         Fixer : SPR; Aiming=7,
+         Fixer : CleaningKit=1; Aiming=4,
+         Fixer : FireKlean; Aiming=2,
+     }
+
+
+     fixing Fix Vector45
+     {
+         Require : Vector45,
+
+         Fixer : Vector45; Aiming=6,
+         Fixer : CleaningKit=1; Aiming=3,
+         Fixer : FireKlean; Aiming=1,
+    }
+
+
+     fixing Fix Vector9
+     {
+         Require : Vector9,
+
+         Fixer : Vector9; Aiming=6,
+         Fixer : CleaningKit=1; Aiming=3,
+         Fixer : FireKlean; Aiming=1,
+     }
+
+
+     fixing Fix P90
+     {
+         Require : P90,
+
+         Fixer : P90; Aiming=6,
+         Fixer : CleaningKit=1; Aiming=3,
+         Fixer : FireKlean; Aiming=1,
+     }
+
+
+     fixing Fix MP7
+     {
+         Require : MP7,
+
+         Fixer : MP7; Aiming=6,
+         Fixer : CleaningKit=1; Aiming=3,
+         Fixer : FireKlean; Aiming=1,
+     }
+
+
+     fixing Fix FN57
+     {
+         Require : FN57,
+
+         Fixer : FN57; Aiming=5,
+         Fixer : CleaningKit=1; Aiming=2,
+         Fixer : FireKlean; Aiming=1,
+     }
+
+
+     fixing Fix CP33
+     {
+         Require : CP33,
+
+         Fixer : CP33; Aiming=5,
+         Fixer : CleaningKit=1; Aiming=2,
+         Fixer : FireKlean; Aiming=1,
+     }
+
+
+     fixing Fix 1522
+     {
+         Require : 1522,
+
+         Fixer : 1522; Aiming=6,
+         Fixer : CleaningKit=1; Aiming=3,
+         Fixer : FireKlean; Aiming=1,
+     }
+
+
+     fixing Fix n418sd
+     {
+         Require : n418sd,
+
+         Fixer : n418; Aiming=7,
+         Fixer : CleaningKit=1; Aiming=4,
+         Fixer : FireKlean; Aiming=2,
+     }
+
+
+     fixing Fix n418
+     {
+         Require : n418,
+
+         Fixer : n418; Aiming=7,
+         Fixer : CleaningKit=1; Aiming=4,
+         Fixer : FireKlean; Aiming=2,
+     }
+
+
+     fixing Fix AA12
+     {
+         Require : AA12,
+
+         Fixer : AA12; Aiming=7,
+         Fixer : CleaningKit=1; Aiming=4,
+         Fixer : FireKlean; Aiming=2,
+     }
+}
