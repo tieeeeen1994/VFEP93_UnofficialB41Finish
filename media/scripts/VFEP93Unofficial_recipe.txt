@@ -10,6 +10,8 @@ module Base
         OnGiveXP:Recipe.OnGiveXP.Reloading3,
         NeedToBeLearn:false,
         IsHidden:true,
+        Sound:Hammering,
+		Time:50.0,
     }
 
     recipe Make 4.6x30mm [VFE]
@@ -23,6 +25,8 @@ module Base
         OnGiveXP:Recipe.OnGiveXP.Reloading3,
         NeedToBeLearn:false,
         IsHidden:true,
+        Sound:Hammering,
+		Time:50.0,
     }
 
 
