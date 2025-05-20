@@ -30,6 +30,33 @@ module Base
     }
 
 
+    recipe Recycle 5.7x28mm [VFE]
+    {
+        Base.57Bullets=1,
+
+		Result:ammomaker.ammomaker_GunPowderGrains=1,
+		RemoveResultItem:true,
+		OnCreate:VFEP93_Recycle57x28mm,
+		Time:30.0,
+        Category:AmmoMakerRecycle,
+		NeedToBeLearn:false,
+		IsHidden:false,
+    }
+
+    recipe Recycle 4.6x30mm [VFE]
+    {
+        Base.46Bullets=1,
+
+		Result:ammomaker.ammomaker_GunPowderGrains=1,
+		RemoveResultItem:true,
+		OnCreate:VFEP93_Recycle46x30mm,
+		Time:30.0,
+        Category:AmmoMakerRecycle,
+		NeedToBeLearn:false,
+		IsHidden:false,
+    }
+
+
     recipe Open Box of 5.7 Ammo
     {
         57Box,
