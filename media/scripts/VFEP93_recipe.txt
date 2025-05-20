@@ -2,7 +2,7 @@ module Base
 {
     recipe Make 5.7x28mm [VFE]
     {
-        ammomaker.ammomaker_GunPowderGrains=12,
+        ammomaker.ammomaker_GunPowderGrains=9,
         ammomaker.ammomaker_PartsBottleneckS=1,
         keep Hammer/BallPeenHammer,
         Result:Base.57Bullets=1,
@@ -16,7 +16,7 @@ module Base
 
     recipe Make 4.6x30mm [VFE]
     {
-        ammomaker.ammomaker_GunPowderGrains=16,
+        ammomaker.ammomaker_GunPowderGrains=8,
         ammomaker.ammomaker_PartsBottleneckS=1,
         keep Hammer/BallPeenHammer,
         Result:Base.46Bullets=1,
