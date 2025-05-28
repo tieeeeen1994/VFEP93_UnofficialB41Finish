@@ -13,3 +13,4 @@ Treat this as a closure to the mod for B41. I know a friend of his will attempt 
 - Added Ammo Maker support where it adds ammunition crafting and recycling when the mod is enabled.
 - Modified loot tables so that more areas can be filled with guns introduced by VFE Post '93 which is based on VFE.
 - Correct the rotations of some guns so that they appear correctly on the player.
+- Fix the incorrect max ammo detail for V-45. It now correctly displays 30 as max ammo instead of 32.
